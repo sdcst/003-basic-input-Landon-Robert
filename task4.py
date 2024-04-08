@@ -16,3 +16,12 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+
+radius = input("\n\nWhat is the radius of the cone?")
+height = input("\n\nWhat is the height of the cone?")
+r = int(radius)
+h = int(height)
+
+SA = 3.14159265*r*(r+(h**2 + r**2)**0.5)
+
+print(f"your answer is {SA}")

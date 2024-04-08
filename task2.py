@@ -11,3 +11,8 @@
 # volume
 #
 # test output radius of 3 should give volume of 113.09733552923254
+
+radius = input("\n\nWhat is the radius of the sphere?")
+r = int(radius)
+V = (4/3) * 3.14159265 * r**3
+print(f"The volume of the sphere is {V}")
